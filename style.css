@@ -1,0 +1,530 @@
+/*	
+========	Global Style ==========
+1-	Section Title
+2-	Section Tabs
+3-	Section Heading Style Large (font-size: 17px)
+4-	Section Heading Style Small (font-size:14px)
+5-	Section Paragraph Style (font-size: 13px)
+6-	Section Date Style (font-size: 12px)
+7-	Section Icons
+8-	Section Shadow
+*/
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+.width-80 {
+	width: 80%;
+}
+.width-67 {
+	width: 67%;
+}
+.width-30 {
+	width: 30%;
+}
+.boxSize-Border{
+	box-sizing: border-box;
+}
+.boxshadow{
+	box-shadow: 0px 0px 4px 3px #ccc;
+}
+.ft-color-black{
+	color: black;
+}
+.ft-color-white{
+	color: white;
+}
+
+.ft-color-gray{
+	color: gray;
+}
+
+.ft-h-largeSize{
+	font-size: 17px;
+}
+
+.ft-h-smallSize{
+	font-size: 14px;
+}
+.ft-para-Size{
+	font-size: 13px;
+}
+.ft-date-Size{
+	font-size: 12px;
+}
+
+.tx-captilize{
+	text-transform: capitalize;
+}
+
+.tx-uppercase{
+	text-transform: uppercase;
+}
+
+.tx-deco-none{
+	text-decoration: none;
+}
+
+.flex-box{
+	display: flex;
+}
+
+.flex-column-direction{
+	flex-direction:column;
+}
+
+.space-between{
+	justify-content:space-between;
+}
+.space-around{
+	justify-content: space-around;
+}
+.listStyle-none{
+	list-style: none;
+}
+.bottom-border-blue{
+	border-bottom: 2px solid DODGERBLUE;
+}
+.overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.div-main-img{
+	width: 100%;
+	height: 200px;
+	background-image: url("main.jpg");
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+}
+
+.div-main-keyword{
+	font-size: 10px;
+	padding: 5px;
+	color: dodgerblue;
+	background-color: white;
+	position: absolute;
+	top: 10%;
+	left: 20px;
+}
+.div-main-keyword2{
+	font-size: 10px;
+	padding: 5px;
+	color: dodgerblue;
+	background-color: white;
+	position: absolute;
+	top: 17%;
+    left: 41%;
+}
+
+.div-main-content{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+
+.div-main-h{
+	margin-top: 15px;	
+}
+
+
+.div-main-para{
+	margin-top: 15px;
+}
+
+
+.div-main-date{
+	margin-top: 15px;	
+}
+
+
+.div-submain{
+	margin-bottom: 15px;
+}
+.div-submain2{
+	margin-bottom: 13px;
+}
+.div-submain:last-child{
+	margin-bottom: 0px;
+}
+
+.div-submain2:last-child{
+	margin-bottom: 0px;
+}
+
+
+
+.submain-img{
+	width: 25%;
+}
+.submain-img2{
+	width: 27%;
+}
+.submain-contents{
+	width: 70%;
+	align-self: center;
+	padding: 3px;
+}
+.submain-contents2{
+	width: 64%;
+	align-self: center;
+	padding: 10px;
+}
+.submain-content-date{
+	margin-top: 8px;
+}
+.submain-content-date2{
+	margin-top: 10px;
+}
+.div-slides{
+	padding: 10px 0px 10px 15px;
+}
+.div-slides button{
+	border: none;
+	background-color: transparent;
+}
+.slides{
+	width: 100%;
+	height: 100%;
+	font-size: 29px;
+	color: #CCC;
+}
+.slides:hover{
+	filter: drop-shadow(0 0 0.1px black);
+}
+.div-slide-last{
+	padding-bottom: 0px;
+}
+.hover-on:hover{
+	box-shadow: 0px 0px 5px 1px #ccc;
+	background-color: dodgerblue;
+	color: white;
+}
+.hover-on-post:hover{
+	box-shadow: 0px 0px 5px 2px black;
+}
+
+/* =========== Local Style ============== */
+/* ======= Section 1 ======= */
+.sec1{
+	background-image: url("section1.jpg");
+	background-size: 100%;
+	background-position: center;
+
+}
+
+.sec1-container{
+	margin: auto;
+	height:600px;
+	/* border: 2px solid red; */
+	box-sizing: border-box;
+}
+.main-nav{
+	padding: 4px 10px;
+	border-bottom: 2px solid #CCC;
+	box-sizing: border-box;
+}
+
+.div-list{
+	width: 50%;
+
+}
+
+.nav-ul{
+	width: 87%;
+	list-style: none;
+	justify-content: space-around;
+	
+}
+
+.nav-ul > :first-child {
+	font-weight:bolder;
+	color: white;
+}
+
+.nav-li a{
+	text-decoration: none;
+}
+.search{
+	font-size:20px;
+	font-weight: lighter;
+}
+
+.sec1-bottom-div-parts{
+	width: 30%;
+	align-items: center;
+} 
+
+.sec1-bottom-part-spans{
+	border: 4px solid;
+	line-height: 2;
+	width: 12%;
+	margin-right: 23px;
+    border-radius: 50px;
+    text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.sec1-bottom-div-parts:hover .sec1-bottom-part-spans{
+	border: 4px solid DODGERBLUE;
+	border-left: 4px solid;
+	color: white;
+}
+.sec1-bottom-div-parts h3{
+	font-weight: normal;
+	/* text-align: center; */
+}
+.sec1-bottom-div-parts:hover h3{
+	font-weight: bold;
+	color: white;
+}
+
+/* ======= Section 2 ======= */
+.sec2{
+	margin: 80px 0px;
+}
+
+.sec2-container{
+	margin: auto;
+}
+
+/*.left{
+	border: 2px solid;
+}*/
+
+.left-nav1{
+	width: 100%;
+}
+.left-navs h1{
+	width: 20%;
+	border-bottom: 2px solid #ccc;
+}
+
+.left-nav1 ul{
+	text-align: center;
+	width: 80%;
+	font-size: 12px;
+}
+
+.left-nav1 li{
+	width: 60%;
+	border-bottom: 2px solid #CCC;
+}
+
+.left-navs a{
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+}
+
+.first{
+	width: 20%;
+	border-bottom: 2px solid blue;
+}
+
+
+.part1{
+	margin-top: 25px;
+}
+.par1-left{
+	width: 48%;
+	/*padding-bottom: 10px;*/
+	/*box-shadow: 0px 0px 4px 3px #ccc;*/
+}
+.part1-right{
+	width: 48%;
+	align-self: center;
+}
+
+.part2{
+	margin-top: 25px;
+}
+
+.part2-left{
+	width: 48%;
+}
+.part2-right{
+	width: 48%;
+
+}
+
+
+
+.right{
+	border-left: 1px solid #CCC;
+}
+.titles{
+	width: 100%;
+	padding: 12px 0px 12px 25px;
+	font-weight: bold;
+	border-bottom: 1px solid #CCC;
+}
+
+.titles:first-child{
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.about,.stories,.stay-icons,.pick{
+	width: 100%;
+	padding-left: 25px;
+	padding-bottom: 25px;
+    margin: 25px 0px 0px;
+	border-bottom: 1px solid #CCC;
+}
+.stay-icons{
+	text-align: center;
+}
+.stay-icons a{
+	margin-right:25px ;
+}
+.pick{
+	text-align: center;	
+}
+.pick-img{
+	width: 60%;
+}
+.pick-h{
+	text-align: left;
+	margin-top: 15px;
+}
+/* ======= Section 3 ======= */
+.sec3-container{
+	margin-top: 20px;
+	margin: auto;
+}
+.sec3-div1{
+	width: 30%;
+	background-image: url("main.jpg");
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+.sec3-content{
+	width: 90%;
+	margin: auto;
+}
+.sec3-content-h{
+	font-weight: bolder;
+	margin-top: 70px;
+	text-align: center;
+}
+.sec3-content-date{
+	margin-top: 35px;
+}
+/* ======= Section 4 ======= */
+.sec4{
+	margin-top: 80px;
+}
+.sec4-container{
+	margin: auto;
+}
+.sec4-container-left{
+	width: 60%;
+}
+.sec4-container-right{
+	width: 35%;
+}
+.titles2{
+	width: 100%;
+	padding: 0px 0px 12px 0px;
+	font-weight: bold;
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 25px;
+}
+.play{
+	padding: 13px 14px;
+	border-radius: 50%;
+	font-size: 20px;
+	background-color:white;
+	position: absolute;
+	top: 37%;
+    left: 43%;
+}
+.div-but-load{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+.but-load{
+	padding: 5px;
+	width: 10%;
+	border: 1px solid #CCC;
+	border-radius: 50px;
+	background-color: transparent;
+}
+
+/* ======= Footer ======= */
+.sec5{
+	background-color: black;
+	color: white;
+	position: relative;
+}
+.sec5-container{
+	margin-top: 80px;
+	margin: auto;
+	padding: 50px 0px;
+}
+.sec5-divs{
+	width: 30%;
+
+}
+.sec5-left p,.sec5-mid .ul2,.sec5-email-div{
+	margin-top: 10px;
+}
+.sec5-nav-ul{
+	width: 100%;
+}
+.sec5-nav-ul li{
+	width: 50%;
+	
+}
+.sec5-email-div{
+	width: 100%;
+	border-bottom: 2px solid #CCC;
+}
+.email{
+	background-color: transparent;
+	color: #CCC;
+	border: transparent;
+	width: 94%;
+}
+.email:focus{
+	background-color: black;
+	color: #CCC;
+	outline: none;
+
+}
+.sub-arrow{
+	background-color: transparent;
+	color: #CCC;
+	border: transparent;
+}
+.home-but{
+	position: absolute;
+    top: 10%;
+    right: 30px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+/* ============================================== */
