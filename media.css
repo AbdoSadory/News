@@ -67,6 +67,9 @@
 
 /* MAX 425px */
 @media (max-width:425px) {
+    .sec1-bottom-part-spans{
+        line-height: 2;
+    }
     .sec1{
         background-size:auto; 
         background-position: bottom center;
